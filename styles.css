@@ -1,0 +1,20 @@
+.jumbotron{
+    padding: 1rem;
+    background-color: #292b2c;
+    color: white;
+}
+
+#products-list{
+    text-align: center;
+    width: 100%;
+}
+
+#bodyProductos{
+    vertical-align: middle;
+}
+
+.btn-primary:nth-child(2){
+    width: 99.8vw;
+    margin: 0.1em;
+}
+
