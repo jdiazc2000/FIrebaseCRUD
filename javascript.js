@@ -93,13 +93,15 @@ window.addEventListener('DOMContentLoaded', async () => {
                 descrip: descProduct.value,
                 cant: cantProduct.value,
             });
-            editStatus = false
             ProductModalAddBtn.innerText = `Producto editado`
+            alert('Producto Editado')
         } else {
             SaveProduct(codeProduct.value, descProduct.value, cantProduct.value)
             ProductModalAddBtn.innerText = `Producto guardado`
+            alert('Producto guardado')
         }
         ProductsForm.reset()
+        editStatus = false
     })
 
 })
